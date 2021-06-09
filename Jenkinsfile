@@ -64,7 +64,7 @@ podTemplate(
 
 def smokeTest(environment) {     
     container('eb') {
-       
+        String test_url = "http://Jrcmstest-env.eba-pmmy33px.ap-southeast-2.elasticbeanstalk.com/"
     }
 }
 
